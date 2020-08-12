@@ -1,0 +1,25 @@
+{
+  "name": "mernexamples",
+  "version": "1.0.0",
+  "description": "This is to show the MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddalton299/MernExamples.git"
+  },
+  "author": "Denzel Dalton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddalton299/MernExamples/issues"
+  },
+  "homepage": "https://github.com/ddalton299/MernExamples#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.28"
+  }
+}
