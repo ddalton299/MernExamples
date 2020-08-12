@@ -5,15 +5,14 @@ const Schema = mongoose.Schema;
 // Create Schema 
 const ItemSchema = new Schema({
         name:{
-            type = String, 
-            required = true
+            type: String, 
+            required: true
         },
         date: {
-            type = Date, 
+            type: Date, 
             default: Date.now 
         }
     }); 
 
     module.exports = item = mongoose.model('item', ItemSchema); 
 
-    
