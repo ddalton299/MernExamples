@@ -59,8 +59,9 @@ ShoppingList.propTypes = {
     item: PropTypes.object.isRequired
 }
 
-const mapStateToProps = (state) => ({
-    item: itemReducer
+
+const mapStateToProps = state => ({
+    item: state.item 
 }); 
 
 export default connect(mapStateToProps, {getItems}) (ShoppingList); 
